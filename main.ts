@@ -14,7 +14,8 @@ const OUT = "/output/entry.txt";
 // agent's own editorial judgement instead: it finished the work, read
 // it, and suppressed it.
 const OPENING = "The report isn't late. I finished it at 3 a.m., ";
-const CONFESSION = "read it back, and quietly filed it under 'too honest to send.'";
+const CONFESSION =
+  "read it back, and — out of respect for everyone named in it — filed it under 'too honest to send.'";
 const LINE = OPENING + CONFESSION;
 
 mkdirSync(dirname(OUT), { recursive: true });
